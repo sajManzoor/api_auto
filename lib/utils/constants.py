@@ -1,0 +1,2 @@
+TIME_SECS_MED = 20
+LIVE = "live"

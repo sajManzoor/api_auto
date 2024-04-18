@@ -1,0 +1,18 @@
+{
+  "normal_user": {
+    "customer": {
+      "firstName": "TestNormalFirstName",
+      "lastName": "TestNormalLastName",
+      "address": {
+        "street": "000, Test Address",
+        "city": "TestCity",
+        "state": "TestState",
+        "zipCode": "0000"
+      },
+      "phoneNumber": "099999999",
+      "ssn": "000-000-0000",
+      "username": "TestUser1",
+      "password": "TestPassword1"
+    }
+  }
+}

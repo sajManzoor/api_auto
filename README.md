@@ -14,6 +14,7 @@ The root folder contains the entire project structure:
             -  json test data under directories based on env e.g: live > user.json
             - has a data_provider singleton to parse static data
             - models to map the test data to. (User, Account)
+            - handle between static and dynamic data
         - logger:
             - use for logging - currently only used for info logs
         - api_service_provider:
@@ -41,10 +42,14 @@ The root folder contains the entire project structure:
 ## Convention
 
 - Tests can call features and lib (dataprovider, api_provider etc)
-- Its better to move assertions outside of tests - but for now we will keep it in tests.
+- Its better to move assertions outside of tests (WIP)
 
 ## Getting Started
 
+Pre-requisite
+```sh
+python 3 or above
+```
 Clone the repo.
 
 ```sh
